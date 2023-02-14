@@ -9,16 +9,15 @@
     "hot": "webpack serve",
     "test": "mocha --recursive 'src/**/*.test.js'",
     "coverage": "c8 --all --include 'src/**/*' --reporter=html mocha --recursive 'src/**/*.test.js'",
-    "tsc": "tsc",
     "build:win": "electron-builder --win --publish never",
     "build:mac": "electron-builder --mac --publish never"
   },
   "author": {
-    "name": "BMLV/EinsAppl"
+    "name": "horst.dehmer@syncpoint.io"
   },
   "license": "ISC",
   "build": {
-    "appId": "at.gv.bmlv.${name}",
+    "appId": "3985c4e1",
     "publish": null,
     "files": [
       "dist/**/*",
