@@ -2,6 +2,7 @@
   "name": "electron-webpack",
   "version": "0.0.0",
   "description": "Electron/React Template",
+  "author": "horst.dehmer@syncpoint.io",
   "main": "dist/main.js",
   "scripts": {
     "start": "electron . --static",
@@ -11,9 +12,6 @@
     "coverage": "c8 --all --include 'src/**/*' --reporter=html mocha --recursive 'src/**/*.test.js'",
     "build:win": "electron-builder --win --publish never",
     "build:mac": "electron-builder --mac --publish never"
-  },
-  "author": {
-    "name": "horst.dehmer@syncpoint.io"
   },
   "license": "ISC",
   "build": {
