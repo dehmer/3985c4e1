@@ -2,6 +2,7 @@
   "name": "electron-webpack",
   "version": "0.0.0",
   "description": "Electron/React Template",
+  "keywords": ["electron", "react", "babel", "webpack", "sass", "level", "mocha", "c8", "builder"],
   "author": "horst.dehmer@syncpoint.io",
   "main": "dist/main.js",
   "scripts": {
